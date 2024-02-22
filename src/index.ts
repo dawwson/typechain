@@ -1,7 +1,4 @@
-class Block {
-  constructor(private data: string) {}
+import { exit, init } from "myPackage";
 
-  static hello() {
-    return "hi";
-  }
-}
+init({ url: "x" });
+exit(1);
